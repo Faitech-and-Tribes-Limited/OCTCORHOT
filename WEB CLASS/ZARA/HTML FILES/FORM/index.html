@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>generating <form action=""></form></title>
+    <link rel="stylesheet" href="/Front-End-Oct-Corhot/lists/tables/form/STYLES/index.css">
+</head>
+<body>
+    <h1 id="dog">User Registration</h1>
+    <form>
+        <label for="Username">Username:</label>
+        <input placeholder="enter username"><br><br>
+     <label for="username">email:</label>
+        <input placeholder="enter email">
+    <br><br><label for="password">password:</label>
+        <input placeholder="enter password">
+        <br><br>
+        <button>Register</button><br><br>
+        <fieldset><legend>persnal information</legend>
+            <label for="fullname:">fullname:</label><input placeholder="enter your full name"><br><br>            <label for="email">email:</label><input placeholder="example@mail.com"><br><br>
+            <label for="Age">Age:</label><input>
+        </fieldset>
+        <fieldset>
+            <legend>gender</legend>
+            <label for="">male</label><input type="radio">
+            <label for="">female</label><input type="radio">
+            <label for="">others</label><input type="radio">
+        </fieldset><br><br>
+        <label>country:</label>
+    <select name="country" id="">
+        <option value="">--select country--</option>
+        <option value="nigeria">nigeria</option>
+        <option value="nigeria">spain</option>
+        <option value="nigeria">europe</option>
+        <option value="nigeria">cameroon</option>
+    </select>
+
+    <br><br>
+    <label>city:</label><input list="cities"  name="cities" placeholder="type your city">
+    <datalist>
+        <option value="lagos">
+            <option value="ibadan">
+    </datalist> 
+    </form>
+    <br>
+    <label>short bio:</label><br>
+    <textarea name="bio" id="short bio" rows="5"  placeholder="write about yourself"></textarea><br>
+    <label for="numbered">2+3=5</label><br><br>
+    <button> submit</button>
+</body>
+</html>
