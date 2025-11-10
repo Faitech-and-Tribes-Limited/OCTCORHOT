@@ -1,0 +1,21 @@
+.navbar{
+    background-color: blue;
+    grid-area: navbar;
+}
+.sidebar{
+    background-color: green;
+    grid-area: sidebar;
+}
+.content{
+    height: 100vh   ;
+    background-color: aqua;
+    grid-area: content;
+}
+.everything{
+display: grid;
+grid-template-areas: "sidebar  navbar"
+                    "sidebar  content";
+ grid-template-columns: 100px 1fr; 
+ grid-template-rows: 200px 1fr                   
+
+}
