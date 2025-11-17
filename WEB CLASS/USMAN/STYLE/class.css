@@ -1,0 +1,193 @@
+.container, h4{
+    padding-left: 25px;
+}
+.container  h6{
+    margin-left: 30px;
+}
+.middle-top{
+    display: flex;
+
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(234, 238, 242);
+       
+}
+.phone-number {
+    padding-right: 50px;
+}
+
+.image-text{
+    background-image:url("/WEB CLASS/LAWAL/IMAGES/computer.jpg");
+    background-size: cover;
+    height: 50vh;
+    background-position: center;
+    color: rgb(0, 0, 0);
+        
+}
+.image-text h3{
+    font-size: 25px;
+    margin: 0;
+    text-align: center;
+}
+.image-text p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.container, .image-text{
+    margin: 0%;
+}
+.image-text, h3{
+    padding-top: 50px
+}
+
+.inner-image img{
+    width: 50px;
+    border-radius: 25px;
+        
+}
+
+.box1, .inner-image{
+padding-left: 20px;   
+padding-top: 20px;
+
+}
+
+.box1 p{
+    font-size: 14px;
+    
+    
+}
+.inner-image .box1{
+    display:flex;
+    justify-content: center;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+.box1 h4, .inner-image{
+    display: flex;
+    justify-content: center;
+    color: rgb(11, 91, 228);
+    
+}
+.box2{
+    padding-left: 50px;
+    
+}
+.box2 button{
+    width: 40%;
+    height: 5vh;
+    font-size: 10px;
+    border: none;
+
+}
+
+.laptop img{
+    width: 300px;
+    margin-left: 70vh;
+
+ }
+.box2, .laptop{
+    display: flex;
+}
+.ipad img{
+    width: 200px;
+    padding-left: 45px;
+}
+
+.thenews{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    margin-left: 50px;
+    
+}
+
+.thenews1{
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    margin-left: 20vh;
+    color: white;
+    
+}
+.thenews h2, h6{
+    text-align: center;
+}
+.thenews1 h2, h6{
+    text-align: center;
+}
+.box3{
+    display: flex;
+    justify-content: space-evenly;
+        
+}
+.container3{
+    margin-top: 30px;
+    height: 50vh;
+}
+.container2{
+    background-color: aliceblue;
+    
+}
+.box3{
+    background-color: white;
+    width: 93.2%;
+    margin-left: 50px;
+}
+
+
+.container4{
+    background-color: white;  
+    width: 300px;
+    height: 60vh;
+    
+
+}
+.container4 img{
+    width: 300px ;
+
+}
+
+.kidstext{
+    padding: 15px;
+    
+}
+.today-text{
+    display: flex;
+    background-color: white}
+
+.last-container h3, h4{
+padding-left: 10vh;
+}
+ 
+    
+.last-container h4{
+    margin-top: 68px;
+
+}
+.last-container .container4{
+    margin: 0px;
+}
+
+.last-container, .jobs{
+    margin-left: 30px;
+}
+
+
+.grid-container{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 50px;
+    background-color: aliceblue;
+    height: 65vh;
+    
+       
+}
+

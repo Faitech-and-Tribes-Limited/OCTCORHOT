@@ -1,0 +1,25 @@
+.sidea{
+    background-color: yellow;
+    grid-area: sidebar;
+}
+
+.nava{
+    background-color: rgb(162, 18, 18);
+    grid-area: navbar;
+}
+
+.contenta{
+    background-color: purple;
+    grid-area: contentarea;
+    height: 100vh;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: "sidebar navbar"
+                        "sidebar contentarea";
+    grid-template-columns: 200px 6fr;
+    grid-template-rows: 200px 6fr;
+}
+
+
