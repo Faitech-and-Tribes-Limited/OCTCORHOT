@@ -57,7 +57,59 @@ if (mathematics >= 50 && english >= 50){
 }else{
     console.log('failed')
 }
-
+const studentTask = {
+  taskId: 101,
+  title: "Web Development Project",
+  description: "Build a responsive portfolio website",
+  deadline: new Date("2025-12-15T23:59:59"),
+  isCompleted: false,
+  assignedTo: {
+    studentId: 5023,
+    name: {
+      first: "Alice",
+      last: "Johnson",
+    },
+    contact: {
+      email: "alice.johnson@example.com",
+      phone: "+1234567890"
+    },
+    skills: ["HTML", "CSS", "JavaScript", "React"]
+  },
+  requirements: [
+    { id: 1, description: "Responsive layout", priority: "high", completed: true },
+    { id: 2, description: "Navigation bar", priority: "medium", completed: false },
+    { id: 3, description: "Portfolio section", priority: "high", completed: false },
+    { id: 4, description: "Contact form", priority: "low", completed: false }
+  ],
+  grade: {
+    score: null,
+    feedback: null,
+    gradedBy: null
+  },
+  history: [
+    {
+      date: "2025-11-01",
+      status: "assigned",
+      remarks: "Task assigned to the student"
+    },
+    {
+      date: "2025-11-10",
+      status: "in progress",
+      remarks: "Student started working on the task"
+    }
+  ],
+  getFullName: function() {
+    return `${this.assignedTo.name.first} ${this.assignedTo.name.last}`;
+  },
+  markRequirementCompleted: function(reqId) {
+    const req = this.requirements.find(r => r.id === reqId);
+    if (req) {
+      req.completed = true;
+      return true;
+    }
+    return false;
+  }
+};
     </script>
 </body>
 </html>
