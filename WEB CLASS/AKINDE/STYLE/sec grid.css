@@ -1,0 +1,38 @@
+body {
+    margin: 40px 60px;
+    background-color: rgb(112, 108, 108);
+}
+.grid-item {
+    background-color: aquamarine;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+}
+.grid-item-6 {
+    width: auto;
+    height: 150px;
+    grid-area: header;
+ }
+ .grid-item-7 {
+    width: auto;
+    height: 400px;
+    grid-area: nav;
+ }
+ .grid-item-8 {
+    width: auto;
+    height: 400px;
+    grid-area: main;
+ }
+ .grid-item-9 {
+    width: auto;
+    height: 70px;
+    grid-area: footer;
+ }
+ .sec-grid {
+    display: grid;
+    grid-template-areas: "header header"
+                         "nav main"
+                         "footer footer";
+    grid-template-columns: 300px 1fr;
+ }
